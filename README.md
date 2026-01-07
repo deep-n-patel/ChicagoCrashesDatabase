@@ -9,7 +9,7 @@
 
 ## Project Overview
 
-This project is a **command-line interface (CLI) application written in Java** that interacts with a **Chicago car crashes database**. The application allows users to create, populate, delete, and query crash-related data stored in an **SQL database hosted on Uranium**.
+This project is a command-line interface (CLI) application written in Java that interacts with a Chicago car crashes database. The application allows users to create, populate, delete, and query crash-related data stored in an SQL database hosted on Uranium.
 
 The system demonstrates practical use of:
 - Java for CLI-based user interaction  
