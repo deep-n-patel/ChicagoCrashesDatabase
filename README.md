@@ -28,35 +28,35 @@ To compile and run the program, execute the following command from the project d
 make run
 ```
 
-Database Access (Uranium)
+## Database Access (Uranium)
 
 The credentials required to log into the Uranium database server are stored in the auth.cfg file.
 
-UserID: pateld43
+- UserID: pateld43
 
-Password: 7957389
+- Password: 7957389
 
-Database Setup and Management
+## Database Setup and Management
 
 Once the program starts:
 
-Type C in the terminal to enter the help/interface mode.
+- Type C in the terminal to enter the help/interface mode.
 
-Entering anything other than C will cause the program to exit.
+- Entering anything other than C will cause the program to exit.
 
 Inside the interface:
 
-Type pop to create and populate the Chicago car crashes database on Uranium using the chicago_crashes.sql file.
+- Type pop to create and populate the Chicago car crashes database on Uranium using the chicago_crashes.sql file.
 
-Type del to delete the database from Uranium.
+- Type del to delete the database from Uranium.
 
-Type q at any time to quit the program.
+- Type q at any time to quit the program.
 
-Running Queries
+## Running Queries
 
-The CLI provides several query commands to retrieve crash-related data from the database.
+- The CLI provides several query commands to retrieve crash-related data from the database.
 
-Queries that require user input are displayed using angle brackets (<>) as placeholders.
+- Queries that require user input are displayed using angle brackets (<>) as placeholders.
 
 Example
 
@@ -64,7 +64,7 @@ Example
 msa <int N>
 ```
 
-To run this query, simply enter:
+- To run this query, simply enter:
 
 ```bash
 msa 5
